@@ -5,10 +5,10 @@
 - 去除应用中心，只能通过上传来安装插件和模板
 - 去除更新检测与数据收集请求
 - 去除插件和模板的授权检测
-Discuz!Crack_X3.5.zip
+### Discuz!Crack_X3.5.zip
 补丁功能：
-1、可直接获取到原始的插件&模板文件，从应用中心安装插件&模板之后，在 /data/download/ 即可看到该插件&模板的完整文件
-2、破解插件&模板安装时的授权校验
-3、去除了插件安装、开启、卸载等操作的统计上报
-4、下载插件后，自动去除文件头部的授权信息注释、文件尾部不可见的特征码、xml文件的个人信息。（如果插件不可用，可删除\source\function\function_cloudaddons.php中的$content = cloudaddons_optimize($writefile, $content);这一行后重新下载）
+-1、可直接获取到原始的插件&模板文件，从应用中心安装插件&模板之后，在 /data/download/ 即可看到该插件&模板的完整文件
+-2、破解插件&模板安装时的授权校验
+-3、去除了插件安装、开启、卸载等操作的统计上报
+-4、下载插件后，自动去除文件头部的授权信息注释、文件尾部不可见的特征码、xml文件的个人信息。（如果插件不可用，可删除\source\function\function_cloudaddons.php中的$content = cloudaddons_optimize($writefile, $content);这一行后重新下载）
 使用方法：上传到网站根目录解压覆盖。
